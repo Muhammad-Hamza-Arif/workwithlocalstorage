@@ -1,0 +1,68 @@
+#container{
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+/* Apply styles to labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply styles to input fields */
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply styles to the Sign Up button */
+  #signup-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Apply styles to the welcome message */
+  p {
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Apply styles to labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply styles to input fields */
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply styles to the Log In button */
+  #login-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 90px;
+  }
+  
+  /* Apply styles to the welcome message (uncomment it if needed) */
+  /* p#result {
+    font-style: italic;
+    color: #666;
+  } */
+  

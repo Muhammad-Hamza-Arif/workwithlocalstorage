@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="">
+      <h1 class="">Welcome Back, Admin</h1>
+      <p class="">
+        Here you can create, edit and delete movies
+      </p>
+    </div>
+
+    <div class="">
+      <div class="">
+        <h1 class="">
+          Create A Movie
+        </h1>
+        <div class="">
+          <div
+            class=""
+          >
+            <div class="">
+              <label for="title" class=""
+                >Title</label
+              >
+              <input
+                type="text"
+                id="title"
+                class=""
+                placeholder="Enter title"
+              />
+            </div>
+            <div class="">
+              <label
+                for="ticketCount"
+                class=""
+                >Ticket Count</label
+              >
+              <input
+                type="number"
+                id="ticketCount"
+                class=""
+                placeholder="Enter ticket count"
+              />
+            </div>
+            <div class="mb-4 w-1/2 pl-2">
+              <label
+                for="released_on"
+                class=""
+                >Released On</label
+              >
+              <input
+                type="date"
+                id="released_on"
+                class=""
+              />
+            </div>
+            <button
+              class=""
+              id="create-button"
+            >
+              Create
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+        <h1 class="">Movies</h1>
+
+        <div id="list" class=""></div>
+
+        <div
+          v-else
+          class=""
+        >
+          <div>
+            <!-- <img
+              src="../assets/undraw_no_data_re_kwbl.svg"
+              alt="no products"
+              class="max-w-full h-auto max-h-48 mx-auto drop-shadow-lg"
+            /> -->
+          </div>
+          <p class="">No Movies Available</p>
+        </div>
+      </div>
+      <h1 class="">Users</h1>
+      <div class="">
+        <div class="">Name</div>
+        <div class="">Email</div>
+        <div class="">User Role</div>
+      </div>
+      <div class="my-2">
+        <table>
+          <tbody id="userTableBody">
+            <!-- User data will be dynamically inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./createMovie.js"></script>
+    <script src="./readMovie.js"></script>
+    <script src="./user.js"></script>
+  </body>
+</html>

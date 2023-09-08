@@ -1,0 +1,153 @@
+/* Apply styles to labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply styles to input fields */
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply styles to the Create Movie button */
+  #create-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Apply styles to the heading */
+h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  
+  /* Apply styles to individual movie items (customize as needed) */
+  .movie-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    display: flex; 
+    flex-direction: row;
+  }
+  /* Apply styles to labels */
+label {
+    font-weight: bold;
+  }
+  
+  /* Apply styles to input fields */
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Apply styles to buttons */
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed */
+  .movieName{
+    font-size: 20px;
+  }
+.first{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  gap: 90px;
+}
+/* Reset some default browser styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Style the container for table headers */
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+}
+.container1{
+  margin: 10px;
+}
+/* Style table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style table headers */
+th {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style table cells */
+td:nth-child(2){
+  padding: 8px;
+  text-align: center;
+}
+
+td:nth-child(3){
+  padding: 8px;
+  text-align: right;
+}
+
+/* Style the dropdown select boxes */
+select {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the alert box */
+.alert {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}

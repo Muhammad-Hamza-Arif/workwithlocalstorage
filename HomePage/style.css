@@ -1,0 +1,21 @@
+/* Apply styles to the heading */
+.Movie {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 36px;
+    margin-left: 20px;
+    color: #007bff;
+  }
+  
+  /* Apply styles to the movie list container */
+  #list {
+    margin-top: 20px;
+  }
+  .container{
+    /* background-color: yellow; */
+    display: grid;
+  grid-template-columns: auto auto auto;
+  /* text-align: center; */
+  }
+  .name{
+    font-size: 30px;
+  }
